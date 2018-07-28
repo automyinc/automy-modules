@@ -1,0 +1,9 @@
+[submodule "vnx-base"]
+        path = vnx-base
+        url = https://github.com/automyinc/vnx-base.git
+[submodule "basic"]
+	path = basic
+	url = https://github.com/automyinc/basic.git
+[submodule "math"]
+	path = math
+	url = https://github.com/automyinc/math.git
