@@ -7,3 +7,6 @@
 [submodule "math"]
 	path = math
 	url = https://github.com/automyinc/math.git
+[submodule "vnx-examples"]
+	path = vnx-examples
+	url = https://github.com/automyinc/vnx-examples.git
