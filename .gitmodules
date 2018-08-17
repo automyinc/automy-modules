@@ -10,3 +10,6 @@
 [submodule "vnx-examples"]
 	path = vnx-examples
 	url = https://github.com/automyinc/vnx-examples.git
+[submodule "vnx-web"]
+	path = vnx-web
+	url = https://github.com/automyinc/vnx-web
