@@ -13,6 +13,3 @@
 [submodule "vnx-web"]
 	path = vnx-web
 	url = https://github.com/automyinc/vnx-web
-[submodule "vnx-database"]
-	path = vnx-database
-	url = https://github.com/automyinc/vnx-database.git
