@@ -13,9 +13,7 @@ The enterprise package includes the source code and can be compiled for any plat
 
 $ sudo dpkg -i vnx-base/{ARCH}/vnx-base-{VERSION}-{ARCH}-{DIST}.deb
 
-$ ./make_all.sh
-
-$ sudo ./dpkg_install_all.sh
+$ ./dpkg_install_all.sh
 
 ## Getting started
 

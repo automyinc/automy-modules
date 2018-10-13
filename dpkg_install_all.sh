@@ -4,9 +4,18 @@ cd $(dirname "$0")
 
 ARCH=$(uname -m)
 
-dpkg -i math/${ARCH}/automy-math-$(cat math/VERSION)-${ARCH}.deb
+cd math
+./create_debian.sh
+sudo dpkg -i ${ARCH}/automy-math-$(cat VERSION)-${ARCH}.deb
+cd ..
 
-dpkg -i basic/${ARCH}/automy-basic-$(cat basic/VERSION)-${ARCH}.deb
+cd basic
+./create_debian.sh
+sudo dpkg -i ${ARCH}/automy-basic-$(cat VERSION)-${ARCH}.deb
+cd ..
 
-dpkg -i vnx-web/${ARCH}/vnx-web-$(cat vnx-web/VERSION)-${ARCH}.deb
+cd vnx-web
+./create_debian.sh
+sudo dpkg -i ${ARCH}/vnx-web-$(cat VERSION)-${ARCH}.deb
+cd ..
 
