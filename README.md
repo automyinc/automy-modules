@@ -17,4 +17,4 @@ $ sudo ./dpkg_install_all.sh
 
 ## Getting started
 
-See [vnx-example](vnx-example/) repository.
+See [vnx-examples](https://github.com/automyinc/vnx-examples) repository.
