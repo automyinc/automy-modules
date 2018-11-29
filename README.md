@@ -7,7 +7,9 @@
 - Debian 9.5 Stretch x86_64
 - Debian 8.11 Jessie x86_64, powerpc
 
-The enterprise package includes the source code and can be compiled for any platform, contact info@automyinc.com to get a quote.
+## Dependencies
+
+libpng-dev libjpeg-dev
 
 ## Install
 
