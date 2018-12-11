@@ -17,6 +17,8 @@ $ sudo dpkg -i vnx-base/{ARCH}/vnx-base-{VERSION}-{ARCH}-{DIST}.deb
 
 $ ./dpkg_install_all.sh
 
+Above will install vnx-base, automy-math and automy-basic, other packages can be installed on a one-by-one basis.
+
 ## Getting started
 
 See [Tutorials](http://www.automyinc.com/file/automy-modules/vnx-base/doc/doxygen/html/index.html)

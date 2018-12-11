@@ -13,3 +13,9 @@
 [submodule "vnx-web"]
 	path = vnx-web
 	url = https://github.com/automyinc/vnx-web
+[submodule "vehicle"]
+	path = vehicle
+	url = https://github.com/automyinc/vehicle.git
+[submodule "vision"]
+	path = vision
+	url = https://github.com/automyinc/vision.git
