@@ -1,7 +1,7 @@
 
 ## Supported platforms
 
-- Ubuntu LTS 18.04 x86_64
+- Ubuntu LTS 18.04 x86_64, aarch64
 - Ubuntu LTS 16.04 x86_64
 - Ubuntu LTS 14.04 x86_64
 - Debian 9.5 Stretch x86_64
