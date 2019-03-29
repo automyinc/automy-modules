@@ -9,7 +9,7 @@
 
 ## Dependencies
 
-libpng-dev libjpeg-dev
+cmake libpng-dev libjpeg-dev
 
 ## Install
 
