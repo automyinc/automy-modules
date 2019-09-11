@@ -9,7 +9,7 @@
 
 ## Dependencies
 
-cmake libpng-dev libjpeg-dev
+build-essential cmake fakeroot libpng-dev libjpeg-dev
 
 ## Install
 
