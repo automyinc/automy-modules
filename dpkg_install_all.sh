@@ -30,3 +30,10 @@ cd vision
 sudo dpkg -i ${ARCH}/automy-vision-$(cat VERSION)-${ARCH}.deb
 cd ..
 
+cd lidar
+./clean_all.sh
+./create_debian.sh
+sudo dpkg -i ${ARCH}/automy-lidar-$(cat VERSION)-${ARCH}.deb
+cd ..
+
+

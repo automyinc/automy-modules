@@ -19,3 +19,6 @@
 [submodule "vision"]
 	path = vision
 	url = https://github.com/automyinc/vision.git
+[submodule "lidar"]
+	path = lidar
+	url = https://github.com/automyinc/lidar
