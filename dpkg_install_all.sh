@@ -4,7 +4,7 @@ cd $(dirname "$0")
 
 ARCH=$(uname -m)
 
-sudo apt-get remove automy-math automy-basic automy-vehicle automy-vision
+sudo apt-get remove automy-math automy-basic automy-vehicle automy-vision automy-lidar
 
 cd math
 ./clean_all.sh
