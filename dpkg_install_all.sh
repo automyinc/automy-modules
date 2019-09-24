@@ -4,36 +4,36 @@ cd $(dirname "$0")
 
 ARCH=$(uname -m)
 
-sudo apt-get remove automy-math automy-basic automy-vehicle automy-vision automy-lidar
+sudo apt-get remove -y automy-math automy-basic automy-vehicle automy-vision automy-lidar
 
 cd math
 ./clean_all.sh
 ./create_debian.sh
-sudo dpkg -i ${ARCH}/automy-math-$(cat VERSION)-${ARCH}.deb
+sudo dpkg -i ${ARCH}/automy-math.deb
 cd ..
 
 cd basic
 ./clean_all.sh
 ./create_debian.sh
-sudo dpkg -i ${ARCH}/automy-basic-$(cat VERSION)-${ARCH}.deb
+sudo dpkg -i ${ARCH}/automy-basic.deb
 cd ..
 
 cd vehicle
 ./clean_all.sh
 ./create_debian.sh
-sudo dpkg -i ${ARCH}/automy-vehicle-$(cat VERSION)-${ARCH}.deb
+sudo dpkg -i ${ARCH}/automy-vehicle.deb
 cd ..
 
 cd vision
 ./clean_all.sh
 ./create_debian.sh
-sudo dpkg -i ${ARCH}/automy-vision-$(cat VERSION)-${ARCH}.deb
+sudo dpkg -i ${ARCH}/automy-vision.deb
 cd ..
 
 cd lidar
 ./clean_all.sh
 ./create_debian.sh
-sudo dpkg -i ${ARCH}/automy-lidar-$(cat VERSION)-${ARCH}.deb
+sudo dpkg -i ${ARCH}/automy-lidar.deb
 cd ..
 
 
