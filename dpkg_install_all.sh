@@ -6,6 +6,9 @@ ARCH=$(uname -m)
 
 sudo apt-get remove -y automy-math automy-basic automy-vehicle automy-vision automy-lidar
 
+# exit if any command below fails
+set -e
+
 cd math
 ./clean_all.sh
 ./create_debian.sh
