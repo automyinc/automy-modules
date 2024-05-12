@@ -1,6 +1,3 @@
-[submodule "vnx-base"]
-        path = vnx-base
-        url = https://github.com/automyinc/vnx-base.git
 [submodule "basic"]
 	path = basic
 	url = https://github.com/automyinc/basic.git
@@ -22,3 +19,6 @@
 [submodule "lidar"]
 	path = lidar
 	url = https://github.com/automyinc/lidar
+[submodule "vnx-base"]
+	path = vnx-base
+	url = https://github.com/madMAx43v3r/vnx-base.git
